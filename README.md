@@ -1,4 +1,4 @@
-# FOSSEE_ImageProcessingToolbox
+# FOSSEE Image Processing Toolbox
 
 The repo contains files for 2 functions:
 <br>stdfilt
