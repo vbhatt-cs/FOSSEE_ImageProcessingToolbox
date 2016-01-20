@@ -2,7 +2,7 @@
 
 The repo contains files for 2 functions:
 <br>stdfilt
-<br>multithresh
+<br>imquantize
 
 Both are MATLAB functions implemented in C++ using openCV. 
 
