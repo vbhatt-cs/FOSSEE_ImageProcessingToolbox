@@ -2,22 +2,19 @@
  * Written by Varun Bhatt
  *
  * See comments before stdfilt function for details about the function.
- * 
+ *
+ * -------------------------------------------
  * Example:
  * 
  * Mat I=imread("im0.png");
- *
  * Mat ans;
  * stdfilt(I,ans);
- *
  * imshow("Original image",I);
  * imshow("Local standard deviation",ans);
- * waitKey(0);
- * destroyWindow("Original image");
- * destroyWindow("Local standard deviation");
+ * -------------------------------------------
  *
  * References:
- * 1. http://in.mathworks.com/help/images/ref/stdfilt.html - stdfilt documentation
+ * 1. http://in.mathworks.com/help/images/ref/stdfilt.html - MATLAB stdfilt documentation
  * 2. Source code of stdfilt in MATLAB (stdfilt.m)
  * 3. http://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html#filter2d - filter2D documentaion
  * */
