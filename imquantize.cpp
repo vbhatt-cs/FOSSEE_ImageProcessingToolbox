@@ -126,6 +126,7 @@ int imquantize(InputArray _I,OutputArray _dst,InputArray _levels)
         return -1;
     } 
 
+    //Call algorithm with default values
     Mat values(1,n+1,CV_32S);
     for(int i=0;i<=n;i++)
         values.at<int>(i)=i;
